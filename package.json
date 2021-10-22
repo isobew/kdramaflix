@@ -1,0 +1,19 @@
+{
+  "name": "kdramaflix",
+  "version": "1.0.0",
+  "description": "<p align='center'>Projeto de plataforma responsiva de séries de dramas asiáticos chamada KDramaFlix baseada na plataforma da Netflix, feito com HTML, CSS e JQuery para realização do desafio de clone da Netflix da bootcamp de Front-End da Impulso na Digital Innovation One.</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isobew/kdramaflix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isobew/kdramaflix/issues"
+  },
+  "homepage": "https://github.com/isobew/kdramaflix#readme"
+}
