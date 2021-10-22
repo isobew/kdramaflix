@@ -1,0 +1,81 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+    --azul: rgb(77, 77, 95);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+header .container{
+    z-index: 999;
+    background: var(--preta);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--azul);
+    font-family: 'Rampart One', cursive;
+    font-size:30px;
+    
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    padding-right: 20px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+
+.subtitle{
+    margin: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 35px;
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

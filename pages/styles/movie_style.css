@@ -1,0 +1,109 @@
+:root{
+    --grey: rgb(128, 128, 128, 0.4);
+}
+
+.principal-container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.description-container{
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url(../../img/Vincenzo.jpg);
+    border-radius: 10px;
+    font-size:16px;
+    height:600px;
+}
+
+.title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+}
+
+.movie-img{
+    width: 200px;
+    height: 300px;
+    border-radius: 9px;
+}
+
+.btn{
+    background-color: rgba(0,0,0,.90);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.seasons{
+    margin: 50px;
+}
+
+.season_btn{
+    background-color: rgba(0,0,0,.90);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+}
+
+.link_btn{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover, .link_btn:hover, .season_btn:hover{
+    background-color:white;
+    color:black;
+}
+
+.btn i{
+    margin-right: 8px;
+}
+
+
+.container{
+    width: 70%;
+    padding-left: 20px;
+}
+
+.back_to_top{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+}
+
+.seasons-container{
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.to_align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

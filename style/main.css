@@ -99,7 +99,12 @@ header nav a:hover{
     transition: .3s ease all;
 }
 
-.btn:hover{
+.link_btn{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover, .link_btn:hover{
     background-color:white;
     color:black;
 }
@@ -141,6 +146,17 @@ header nav a:hover{
     margin-top:5px;
 }
 
+.back_to_top{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+}
+
+#back_to_top{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
 
 
 
