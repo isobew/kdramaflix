@@ -1,0 +1,161 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+    --azul: rgb(77, 77, 95);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+header .container{
+    z-index: 999;
+    background: var(--preta);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    padding: 10px;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--azul);
+    font-family: 'Rampart One', cursive;
+    font-size:30px;
+    
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    padding-right: 20px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+
+.carousel-container{
+    margin-top: 50px;
+}
+
+.principal-movie{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/Vincenzo.jpg');
+
+    height:600px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.principal-movie .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+}
+
+
+.principal-movie .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.btn{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.btn:hover{
+    background-color:white;
+    color:black;
+}
+
+.btn i{
+    margin-right: 8px;
+}
+
+
+.container{
+    padding-left: 20px;
+}
+
+.principal-movie .container{
+    width: 70%;
+}
+
+.movie-box{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.movie-box:hover{
+    opacity: 70%;
+}
+
+.subtitle{
+    margin: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 35px;
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+
+.movies-carousel{
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
